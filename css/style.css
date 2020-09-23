@@ -6,9 +6,85 @@
 
 body {
     font-family: sans-serif;
+    color: #33475b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+input {
+    margin: 0.2rem;
+    padding: 0.2rem 1rem;
+    border: 2px solid #6bdbd0;
+    border-radius: 4px;
 }
 
 .wrapper {
     width: 90%;
     margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.generic-button {
+    background-color: #ff7a59;
+    border-radius: 4px;
+    color: #fff;
+    padding: 0.8rem;
+    text-align: center;
+}
+
+nav {
+    height: 5rem;
+    width: 100%;
+}
+
+nav .wrapper {
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#top-nav {
+    background-color: #f2f7ff;
+}
+
+#top-nav .wrapper {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#top-nav a:nth-child(2) {
+    padding-left: 0.75rem;
+}
+
+#language-picker {
+    padding: 0 0.75rem 0 0;
+    border-right: 1px solid black;
+}
+
+#search-input {
+    max-width: 2rem;
+    transition: max-width 1s ease-out;
+}
+
+#search-input:focus {
+    max-width: 10rem;
+    outline: none;
+}
+
+#login-button {
+    background-color: white;
+    color: #ff7a59;
+    border: 1px solid #ff7a59;
+    margin: 0 1.5rem;
 }
