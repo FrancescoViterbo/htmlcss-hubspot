@@ -279,3 +279,34 @@ main .wrapper {
 .row1 {
     border-bottom: 1px solid white;
 }
+
+/* Statistic Section end */
+
+#customers, #if-you-didnt-decide-yet {
+    width: 100%;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#customers div:first-child {
+    width: 20%;
+}
+
+#customers div:last-child {
+    width: 70%;
+}
+
+#if-you-didnt-decide-yet div:first-child {
+    width: 40%;
+}
+#if-you-didnt-decide-yet div:last-child {
+    width: 40%;
+}
+#if-you-didnt-decide-yet h3 {
+    margin-top: 5rem;
+}
+
+#if-you-didnt-decide img {
+    max-width: 30rem;
+}
