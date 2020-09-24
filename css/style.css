@@ -126,7 +126,8 @@ main p {
 }
 main .generic-button {
     padding: 1.5rem;
-    margin: 3rem 0;
+    display: inline-block;
+    margin: 2rem 0;
 }
 section {
     padding: 2rem 0;
@@ -182,7 +183,6 @@ main .wrapper {
 }
 #infos svg {
     width: 10rem;
-    margin-bottom: 4rem;
 }
 .learn-more {
     background: white;
@@ -206,10 +206,14 @@ main .wrapper {
     text-align: left;
 }
 .learn-more-container {
+    padding: 5rem 0;
     content: "";
     clear: both;
     display: table;
 }
 .learn-more2, .learn-more3, .learn-more4 {
-    max-width: 22rem;
+    max-width: 30%;
+}
+.learn-more2, .learn-more3 {
+    margin-right: 5%;
 }
