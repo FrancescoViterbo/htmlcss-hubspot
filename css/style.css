@@ -184,11 +184,13 @@ main .wrapper {
     width: 10rem;
     margin-bottom: 4rem;
 }
-.learn-more1 {
-    padding: 5rem;
+.learn-more {
     background: white;
     border-radius: 6px;
     box-shadow: 0 0 10px grey;
+}
+.learn-more1 {
+    padding: 5rem;
     content: "";
     clear: both;
     display: table;
@@ -202,4 +204,12 @@ main .wrapper {
 .learn-more1 .float-left:nth-child(2) {
     width: 70%;
     text-align: left;
+}
+.learn-more-container {
+    content: "";
+    clear: both;
+    display: table;
+}
+.learn-more2, .learn-more3, .learn-more4 {
+    max-width: 22rem;
 }
