@@ -168,10 +168,6 @@ main .wrapper {
     max-width: 50rem;
 }
 
-#jumbotron h6 {
-    margin: 5rem 0;
-}
-
 /* Jumbotron Section end */
 
 /* Infos Section */
@@ -299,9 +295,6 @@ main .wrapper {
 }
 
 #if-you-didnt-decide-yet div:first-child {
-    width: 40%;
-}
-#if-you-didnt-decide-yet div:last-child {
     width: 40%;
 }
 #if-you-didnt-decide-yet h3 {
