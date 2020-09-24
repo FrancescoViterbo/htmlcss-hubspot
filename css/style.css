@@ -97,53 +97,77 @@ nav .wrapper {
 /* Navbar end */
 
 main h1 {
+    font-size: 3.5rem;
+    margin: 3rem 0;
+    max-width: 38rem;
+}
+main h2 {
     font-size: 3rem;
     margin: 3rem 0;
 }
-main h2 {
-    font-size: 2.6rem;
-    margin: 2.6rem 0;
-}
 main h3 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 main h4 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 main h5 {
     font-size: 1.5rem;
     margin: 1.5rem 0;
 }
 main h6 {
-    font-size: 1.3rem;
-    margin: 1.3rem 0;
+    font-size: 1rem;
+    margin: 2rem 0;
     font-weight: lighter;
 }
 main p {
-    font-size: 1.8rem;
-    margin: 1.8rem 0;
+    font-size: 1.5rem;
+    margin: 3rem 0;
 }
+main .generic-button {
+    padding: 1.5rem;
+    margin: 3rem 0;
+}
+section {
+    padding: 2rem 0;
+}
+
+/* Jumbotron Section */
 
 #jumbotron {
     background-image: url("../images/jumbotron.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
-    min-height: 50vh;
+    min-height: 80vh;
 }
 
 main .wrapper {
     min-height: 10rem;
 }
-
+/*
 #jumbotron a {
     margin: 4rem 0;
-}
+} */
 
 #jumbotron p {
     max-width: 50rem;
 }
 
 #jumbotron h6 {
-    margin-top: 3rem;
+    margin: 5rem 0;
+}
+
+/* Jumbotron Section end */
+
+/* Infos Section */
+
+#infos {
+    text-align: center;
+    background-color: #f2f7ff;
+    min-height: 80vh;
+}
+#infos img {
+    max-width: 20rem;
+    margin: 4rem 0 0 0;
 }
