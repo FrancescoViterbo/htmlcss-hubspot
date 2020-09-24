@@ -290,7 +290,8 @@ main .wrapper {
 }
 
 #customers div:first-child {
-    width: 20%;
+    width: 30%;
+    padding: 0 5rem;
 }
 
 #customers div:last-child {
