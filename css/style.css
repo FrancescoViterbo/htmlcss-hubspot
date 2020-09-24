@@ -168,18 +168,38 @@ main .wrapper {
     min-height: 80vh;
 }
 #infos .wrapper {
-    position: relative;
+    /* position: relative;
     content: "";
     clear: both;
-    display: table;
+    display: table; */
 }
 #infos img {
     max-width: 20rem;
     margin: 4rem 0 0 0;
 }
 #infos .float-left {
-    background-color: white;
+    /* background-color: white; */
 }
 #infos svg {
     width: 10rem;
+    margin-bottom: 4rem;
+}
+.learn-more1 {
+    padding: 5rem;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px grey;
+    content: "";
+    clear: both;
+    display: table;
+}
+.learn-more1 .float-left {
+    padding: 2rem;
+}
+.learn-more1 .float-left:first-child {
+    width: 15rem;
+}
+.learn-more1 .float-left:nth-child(2) {
+    width: 70%;
+    text-align: left;
 }
