@@ -1,3 +1,5 @@
+/* General Settings */
+
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +62,10 @@ input {
     text-align: center;
 }
 
+/* General Settings end */
+
+/* Navbar section */
+
 header {
     display: initial;
 }
@@ -116,11 +122,18 @@ nav .wrapper {
     left: 0;
 }
 
+#bottom-nav a {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
 .tendina-wrapper {
 
 }
 
 /* Navbar end */
+
+/* Main generals */
 
 main h1 {
     font-size: 3.5rem;
@@ -159,6 +172,8 @@ main .generic-button {
 section {
     padding: 2rem 0;
 }
+
+/* Main Generals end */
 
 /* Jumbotron Section */
 
@@ -303,6 +318,8 @@ main .wrapper {
 
 /* Statistic Section end */
 
+/* Customer Section */
+
 #customers, #if-you-didnt-decide-yet {
     width: 100%;
     content: "";
@@ -329,6 +346,8 @@ main .wrapper {
 #if-you-didnt-decide img {
     max-width: 30rem;
 }
+
+/* Customer Section end */
 
 /* Footer */
 
