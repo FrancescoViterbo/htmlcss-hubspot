@@ -331,12 +331,9 @@ main .wrapper {
     margin-top: 8rem;
 }
 
-#statistics svg {
-    margin: 2rem auto;
-}
-
 #statistics img {
-    width: 50%;
+    max-width: 150px;
+    max-height: 80px;
     margin: 2rem auto;
 }
 
