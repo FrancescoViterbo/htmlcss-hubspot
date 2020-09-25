@@ -267,6 +267,10 @@ main .wrapper {
 }
 .learn-more1 .float-left:first-child {
     width: 15rem;
+    margin-right: 5rem;
+}
+#infos .learn-more1 .float-left:first-child img {
+    width: 12rem;
 }
 .learn-more1 .float-left:nth-child(2) {
     width: 70%;
