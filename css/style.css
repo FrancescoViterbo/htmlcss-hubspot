@@ -316,6 +316,15 @@ main .wrapper {
     margin: 2rem auto;
 }
 
+#statistics p, #statistics h2 {
+    margin: 1rem 0;
+}
+
+#statistics span {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
 /* Statistic Section end */
 
 /* Customer Section */
@@ -337,6 +346,12 @@ main .wrapper {
 } */
 
 #customers img {
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    margin: 3rem 2rem 0 0;
+}
+#customers svg {
     display: inline-block;
     width: 150px;
     vertical-align: middle;
