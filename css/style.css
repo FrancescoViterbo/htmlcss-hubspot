@@ -25,6 +25,12 @@ input {
     border-radius: 4px;
 }
 
+.clearfix {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .check-mark {
     color: white;
     background-color: #ff7a59;
@@ -34,7 +40,7 @@ input {
 }
 
 .wrapper {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -52,6 +58,10 @@ input {
     color: #fff;
     padding: 0.8rem;
     text-align: center;
+}
+
+header {
+    display: initial;
 }
 
 nav {
@@ -100,6 +110,10 @@ nav .wrapper {
 
 #bottom-nav {
     border-top: 1px solid black;
+    position: sticky;
+    background: white;
+    top: 0;
+    left: 0;
 }
 
 .tendina-wrapper {
@@ -303,4 +317,38 @@ main .wrapper {
 
 #if-you-didnt-decide img {
     max-width: 30rem;
+}
+
+/* Footer */
+
+footer {
+    background: #3a4963;
+    padding: 3rem 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer h4 {
+    margin: 1rem 0;
+}
+
+footer p {
+    margin: 1rem 0;
+}
+
+footer .float-left {
+    width: 15%;
+    margin-right: 4%;
+}
+
+footer .float-left:nth-child(2) {
+    margin-top: 3rem;
+}
+
+footer .float-left:nth-child(3) {
+    padding-left: 5%;
+    width: 20%;
+    border-left: 1px solid white;
 }
