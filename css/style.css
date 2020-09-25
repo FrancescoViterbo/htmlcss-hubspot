@@ -64,6 +64,11 @@ input {
     color: #fff;
     padding: 0.8rem;
     text-align: center;
+    transition: background 0.3s ease-out;
+}
+
+.generic-button:hover {
+    background: #f0b6aa;
 }
 
 /* General Settings end */
@@ -122,6 +127,12 @@ nav .wrapper {
     color: #ff7a59;
     border: 1px solid #ff7a59;
     margin: 0 1.5rem;
+    transition: all 0.3s ease-out;
+}
+
+#login-button:hover {
+    background-color: #ff7a59;
+    color: #fff;
 }
 
 #bottom-nav {
