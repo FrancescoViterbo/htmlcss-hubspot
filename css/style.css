@@ -272,6 +272,18 @@ main .wrapper {
     width: 70%;
     text-align: left;
 }
+.learn-more1 h4:last-of-type {
+    position: relative;
+}
+.learn-more1 h4:last-of-type::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: black;
+    width: 60%;
+    margin-left: 45px;
+    top: 50%;
+}
 .learn-more-container {
     padding: 5rem 0;
 }
@@ -413,6 +425,32 @@ footer .center {
     margin: 3rem auto;
 }
 
+footer .center:nth-child(2) {
+    position: relative;
+}
+
+footer .center:nth-child(2)::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    height: 1px;
+    background-color: white;
+    width: 30%;
+    margin-left: 15px;
+    top: 50%;
+}
+
+footer .center:nth-child(2)::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    height: 1px;
+    background-color: white;
+    width: 30%;
+    margin-right: 15px;
+    top: 50%;
+}
+
 footer .float-left {
     width: 15%;
     margin-right: 4%;
@@ -432,6 +470,10 @@ footer .float-left:nth-child(3) {
 footer img {
     width: 30px;
     margin-right: 3rem;
+}
+
+#linkedin-link {
+    margin-right: 0;
 }
 
 footer svg {
