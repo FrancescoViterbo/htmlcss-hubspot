@@ -137,8 +137,11 @@ nav .wrapper {
     margin-left: 1rem;
 }
 
-.tendina-wrapper {
-
+.drop-down {
+    width: 0.8rem;
+    display: inline-block;
+    transform: rotate(-90deg);
+    margin: 0 0.8rem;
 }
 
 /* Navbar end */
@@ -427,4 +430,28 @@ footer .float-left:nth-child(3) {
 footer img {
     width: 30px;
     margin-right: 3rem;
+}
+
+footer svg {
+    fill: white;
+}
+
+footer h6 {
+    margin: 1rem;
+    color: white;
+}
+
+#white-logo {
+    width: 120px;
+    margin-right: 0;
+}
+
+footer a {
+    padding: 0 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+footer .center:nth-of-type(3) a:nth-of-type(2) {
+    border-left: 1px solid white
 }
