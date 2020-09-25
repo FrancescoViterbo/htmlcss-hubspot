@@ -46,6 +46,10 @@ input {
     margin: 0 auto;
 }
 
+.center {
+    text-align: center;
+}
+
 .float-left {
     float: left;
 }
@@ -389,11 +393,19 @@ footer a {
 }
 
 footer h4 {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
 }
 
 footer p {
     margin: 1rem 0;
+}
+
+footer .clearfix {
+    width: 100%;
+}
+
+footer .center {
+    margin: 3rem auto;
 }
 
 footer .float-left {
@@ -407,6 +419,12 @@ footer .float-left:nth-child(2) {
 
 footer .float-left:nth-child(3) {
     padding-left: 5%;
+    padding-bottom: 3rem;
     width: 20%;
     border-left: 1px solid white;
+}
+
+footer img {
+    width: 30px;
+    margin-right: 3rem;
 }
