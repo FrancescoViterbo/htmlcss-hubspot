@@ -327,13 +327,20 @@ main .wrapper {
     display: table;
 }
 
-#customers div:first-child {
+#customers-numb {
     width: 30%;
     padding: 0 5rem;
 }
 
-#customers div:last-child {
+/* #customers div:last-child {
     width: 70%;
+} */
+
+#customers img {
+    display: inline-block;
+    width: 150px;
+    vertical-align: middle;
+    margin: 3rem 2rem 0 0;
 }
 
 #if-you-didnt-decide-yet div:first-child {
