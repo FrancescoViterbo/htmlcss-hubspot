@@ -132,7 +132,7 @@ nav .wrapper {
 
 #search-input {
     max-width: 1rem;
-    transition: max-width 1s ease-out;
+    transition: max-width 0.5s ease-in-out;
 }
 
 #search-input:focus {
@@ -250,7 +250,7 @@ main .wrapper {
 }
 
 #infos img {
-    width: 10rem;
+    width: 14rem;
     height: 10rem;
 }
 .learn-more {
