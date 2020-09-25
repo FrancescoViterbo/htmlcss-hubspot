@@ -280,6 +280,7 @@ main .wrapper {
     height: 100%;
     width: 25%;
     border-left: 1px solid white;
+    padding: 3rem 2rem;
 }
 
 .statistic:first-of-type {
@@ -288,6 +289,16 @@ main .wrapper {
 
 .row1 {
     border-bottom: 1px solid white;
+    margin-top: 8rem;
+}
+
+#statistics svg {
+    margin: 2rem auto;
+}
+
+#statistics img {
+    width: 50%;
+    margin: 2rem auto;
 }
 
 /* Statistic Section end */
