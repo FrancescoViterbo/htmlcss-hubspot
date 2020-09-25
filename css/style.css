@@ -84,6 +84,12 @@ nav .wrapper {
     display: table;
 }
 
+#top-nav .wrapper .float-left, #bottom-nav .wrapper .float-right {
+    position: relative;
+    top: 50%;
+    transform: translate(0, 50%);
+}
+
 #top-nav {
     background-color: #f2f7ff;
 }
